@@ -83,12 +83,6 @@ function RoomPage() {
     });
   };
 
-  return (
-    <div
-      className='myCallContainer'
-      ref={myMeeting}
-      style={{ width: '100vw', height: '100vh' }}
-    ></div>
-  );
+  return <div className='myCallContainer' ref={myMeeting}></div>;
 }
 export default RoomPage;
